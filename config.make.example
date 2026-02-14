@@ -1,0 +1,11 @@
+
+PREFIX = /usr/local/encap/cmdlopt
+
+
+# Set CPPFLAGS for debug build options:
+#
+
+
+# C compiler option flags
+CFLAGS := -g -Wall -Werror -fno-omit-frame-pointer -DDEBUG
+
