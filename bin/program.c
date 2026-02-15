@@ -7,7 +7,7 @@
 
 #include "../lib/debug.h"
 
-#include "../lib/cmdlopt/misc/programOptions.h"
+#include "programOptions.h"
 
 #include "cmdlopt.h"
 

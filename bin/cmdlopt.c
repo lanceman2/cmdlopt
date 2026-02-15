@@ -14,7 +14,7 @@
 #include <stdint.h>
 #include <sys/wait.h>
 
-#include "../lib/cmdlopt/misc/programOptions.h"
+#include "programOptions.h"
 #include "cmdlopt.h"
 #include "../lib/debug.h"
 

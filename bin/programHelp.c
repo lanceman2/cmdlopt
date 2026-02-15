@@ -1,14 +1,14 @@
 
-#include "cmdloptHelp.h"
+#include "../lib/cmdlopt/misc/cmdloptHelp.h"
 
-#ifndef PROG
-#  define PROG   "PROGRAM"
+#ifndef PROGRAM
+#  define PROGRAM   "PROGRAM"
 #endif
 
 
 
 const char *usage =
-"  Usage: " PROG " OPTIONS\n"
+"  Usage: " PROGRAM " OPTIONS\n"
 "\n"
 "  This program executes code after parsing each command line option"
 " in the order that the options are given.\n"
