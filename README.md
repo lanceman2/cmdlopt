@@ -6,7 +6,7 @@ with hundreds of command-line options; and not bloating the size of
 the program.
 
 This introduces a method to keep the command line options with the --help
-descriptions together one place in a C compiled helper program that is
+descriptions together in one place in a C compiled helper program that is
 kept separate from the program that it is documenting.  The helper program
 is also used to generate command-line options code for the program it is
 documenting.  This makes it possible to keep the source command-line
