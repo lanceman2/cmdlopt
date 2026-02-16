@@ -2,7 +2,7 @@
 #define PROGRAM_NAME  "program"
 #endif
 #ifndef PACKAGE_NAME
-#define PACKAGE_NAME  "program"
+#define PACKAGE_NAME  "cmdlopt"
 #endif
 
 
