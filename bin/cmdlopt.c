@@ -1,6 +1,3 @@
-#ifndef PACKAGE_NAME
-#define PACKAGE_NAME  "cmdlopt"
-#endif
 #ifndef PROGRAM_NAME
 #define PROGRAM_NAME  "program"
 #endif
@@ -14,7 +11,7 @@
 #include <stdint.h>
 #include <sys/wait.h>
 
-#include "programOptions.h"
+#include "options.h"
 #include "cmdlopt.h"
 #include "../lib/debug.h"
 
