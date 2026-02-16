@@ -1,6 +1,10 @@
 #ifndef PROGRAM_NAME
 #define PROGRAM_NAME  "program"
 #endif
+#ifndef PACKAGE_NAME
+#define PACKAGE_NAME  "program"
+#endif
+
 
 #include <stdio.h>
 #include <unistd.h>
